@@ -28,7 +28,14 @@ public class MartianWeight {
                 int marsWeight = (int) (earthWeight * 0.378);
                 System.out.println(earthWeight + " lbs on Earth is " + marsWeight + " lbs. on Mars.");
             }
+            
+            System.out.println("Do you want to make another calculation? (y/n)");
+            response = userInput.nextLine();
 
+            if (!response.equalsIgnoreCase("y")) {
+                System.out.println("Thank you for using the Mars Weigth Calculator!");
+                break;
+            }
 
         }
 
