@@ -24,7 +24,7 @@ public class MakeChange {
             
             System.out.println("The change required is " + (amount - bill));
 
-            System.out.println("Do you want to make another calculation? (y/n)");
+            System.out.println("Do you want to make another transaction? (y/n)");
             response = userInput.nextLine();
 
             if (!response.equalsIgnoreCase("y")) {
